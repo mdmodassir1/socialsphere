@@ -2,10 +2,17 @@
 
 <div align="center">
 
+![SocialSphere Banner](https://img.shields.io/badge/SocialSphere-Social%20Media%20Platform-4ecdc4?style=for-the-badge&logo=react)
+
+[![GitHub stars](https://img.shields.io/github/stars/yourusername/socialsphere?style=social)](https://github.com/yourusername/socialsphere)
+[![GitHub forks](https://img.shields.io/github/forks/yourusername/socialsphere?style=social)](https://github.com/yourusername/socialsphere)
+[![GitHub issues](https://img.shields.io/github/issues/yourusername/socialsphere)](https://github.com/yourusername/socialsphere)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
 **A Complete Full-Stack Social Media Platform Like Instagram/TikTok**
 
-[Live Demo](soon) · 
+[Live Demo](https://socialsphere.vercel.app) · [Report Bug](https://github.com/yourusername/socialsphere/issues) · [Request Feature](https://github.com/yourusername/socialsphere/issues)
 
 </div>
 
