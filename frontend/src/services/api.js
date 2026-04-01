@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // Use environment variable for API URL (works in both dev and production)
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+const API_URL = import.meta.env.VITE_API_URL || 'https://socialsphere-backend-2hi4.onrender.com/api';
 
 const API = axios.create({ baseURL: API_URL });
 
