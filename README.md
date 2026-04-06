@@ -141,7 +141,8 @@ npm run dev
 # Run frontend (in another terminal)
 cd ../frontend
 npm run dev
-### 📁 Project Structure
+
+📁 Project Structure
 socialsphere/
 ├── backend/
 │   ├── src/
@@ -175,12 +176,17 @@ socialsphere/
 │   └── package.json
 │
 └── README.md
-### Environment Variables
+
+
+Environment Variables
+
 Backend (.env)
+
 PORT=5000
 MONGO_URI=mongodb+srv://<username>:<password>@cluster0.xxx.mongodb.net/socialsphere
 JWT_SECRET=your_super_secret_key_here
 JWT_EXPIRE=7d
+
 
 # Cloudinary
 CLOUDINARY_CLOUD_NAME=your_cloud_name
@@ -189,10 +195,12 @@ CLOUDINARY_API_SECRET=your_api_secret
 
 
 Frontend (.env)
+
 VITE_API_URL=http://localhost:5000/api
 
 
-### Real-time Architecture
+Real-time Architecture
+
 ┌─────────────────────────────────────────────────────────┐
 │                      Client Browser                      │
 ├─────────────────────────────────────────────────────────┤
@@ -225,7 +233,4 @@ Email: mdmodassir259@gmail.com
 ⭐ Show Your Support
 If you found this project helpful, please give it a ⭐ on GitHub!
 
-<div align="center"> Made with ❤️ by Md Modassir
-⬆ Back to Top
-
-</div> ```
+Made with ❤️ by Md Modassir
