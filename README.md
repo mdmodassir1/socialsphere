@@ -4,15 +4,14 @@
 
 ![SocialSphere Banner](https://img.shields.io/badge/SocialSphere-Social%20Media%20Platform-4ecdc4?style=for-the-badge&logo=react)
 
-[![GitHub stars](https://img.shields.io/github/stars/yourusername/socialsphere?style=social)](https://github.com/yourusername/socialsphere)
-[![GitHub forks](https://img.shields.io/github/forks/yourusername/socialsphere?style=social)](https://github.com/yourusername/socialsphere)
-[![GitHub issues](https://img.shields.io/github/issues/yourusername/socialsphere)](https://github.com/yourusername/socialsphere)
+[![GitHub stars](https://img.shields.io/github/stars/mdmodassir1/socialsphere?style=social)](https://github.com/mdmodassir1/socialsphere/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/mdmodassir1/socialsphere?style=social)](https://github.com/mdmodassir1/socialsphere/network/members)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
-**A Complete Full-Stack Social Media Platform Like Instagram/TikTok**
+**A Complete Full-Stack Social Media Platform Like Instagram/TikTok/WhatsApp**
 
-[Live Demo](https://socialsphere.vercel.app) · [Report Bug](https://github.com/yourusername/socialsphere/issues) · [Request Feature](https://github.com/yourusername/socialsphere/issues)
+[Live Demo](https://socialsphere-fdzq.onrender.com) · [Report Bug](https://github.com/mdmodassir1/socialsphere/issues) · [Request Feature](https://github.com/mdmodassir1/socialsphere/issues)
 
 </div>
 
@@ -122,7 +121,7 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/socialsphere.git
+git clone https://github.com/mdmodassir1/socialsphere.git
 
 # Install backend dependencies
 cd socialsphere/backend
@@ -134,6 +133,8 @@ npm install
 
 # Set up environment variables (see below)
 # Run backend
+
+
 cd ../backend
 npm run dev
 
@@ -141,9 +142,7 @@ npm run dev
 cd ../frontend
 npm run dev
 
-
 📁 Project Structure
-
 socialsphere/
 ├── backend/
 │   ├── src/
@@ -158,76 +157,47 @@ socialsphere/
 │   │   │   ├── Reel.js
 │   │   │   └── Notification.js
 │   │   ├── controllers/      # Business logic
-│   │   │   ├── authController.js
-│   │   │   ├── postController.js
-│   │   │   ├── chatController.js
-│   │   │   ├── storyController.js
-│   │   │   ├── reelController.js
-│   │   │   └── notificationController.js
 │   │   ├── routes/           # API routes
 │   │   ├── middleware/       # Custom middleware
-│   │   │   ├── authMiddleware.js
-│   │   │   └── upload.js
 │   │   └── server.js         # Entry point
-│   ├── .env                  # Environment variables
+│   ├── .env.example          # Environment variables template
 │   └── package.json
 │
 ├── frontend/
 │   ├── public/
 │   ├── src/
 │   │   ├── components/       # Reusable components
-│   │   │   ├── Navbar.jsx
-│   │   │   ├── PostCard.jsx
-│   │   │   ├── ChatModal.jsx
-│   │   │   ├── StoryModal.jsx
-│   │   │   ├── ReelPlayer.jsx
-│   │   │   ├── NotificationBell.jsx
-│   │   │   └── AnalyticsDashboard.jsx
 │   │   ├── pages/            # Page components
-│   │   │   ├── Home.jsx
-│   │   │   ├── Profile.jsx
-│   │   │   ├── Login.jsx
-│   │   │   ├── Register.jsx
-│   │   │   └── Reels.jsx
 │   │   ├── context/          # React Context
-│   │   │   ├── AuthContext.jsx
-│   │   │   ├── ChatContext.jsx
-│   │   │   └── NotificationContext.jsx
 │   │   ├── services/         # API services
-│   │   │   └── api.js
 │   │   ├── App.jsx
 │   │   └── index.js
-│   ├── .env                  # Environment variables
+│   ├── .env.example          # Environment variables template
 │   └── package.json
 │
 └── README.md
 
 
 Environment Variables
+
 Backend (.env)
+
 PORT=5000
 MONGO_URI=mongodb+srv://<username>:<password>@cluster0.xxx.mongodb.net/socialsphere
 JWT_SECRET=your_super_secret_key_here
 JWT_EXPIRE=7d
+
 
 # Cloudinary
 CLOUDINARY_CLOUD_NAME=your_cloud_name
 CLOUDINARY_API_KEY=your_api_key
 CLOUDINARY_API_SECRET=your_api_secret
 
-# Firebase (for push notifications)
-FIREBASE_PROJECT_ID=your_project_id
-FIREBASE_PRIVATE_KEY=your_private_key
-FIREBASE_CLIENT_EMAIL=your_client_email
 
 Frontend (.env)
+
 VITE_API_URL=http://localhost:5000/api
-VITE_FIREBASE_API_KEY=your_firebase_api_key
-VITE_FIREBASE_AUTH_DOMAIN=your_auth_domain
-VITE_FIREBASE_PROJECT_ID=your_project_id
-VITE_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
-VITE_FIREBASE_APP_ID=your_app_id
-VITE_FIREBASE_VAPID_KEY=your_vapid_key
+
 
 Real-time Architecture
 
@@ -249,19 +219,18 @@ Real-time Architecture
                               ▼
 ┌─────────────────────────────────────────────────────────┐
 │                       MongoDB                           │
-├─────────────────────────────────────────────────────────┤
-│  Users │ Posts │ Chats │ Stories │ Reels │ Notifications│
 └─────────────────────────────────────────────────────────┘
 
+### 👨‍💻 Author
+### Md Modassir
 
-👨‍💻 Author
- 
- Md Modassir
+GitHub: @mdmodassir1
 
-GitHub: https://github.com/mdmodassir1
-
-LinkedIn: https://www.linkedin.com/in/md-modassir-9316702bb/
-
-Portfolio: https://mdmodassir.netlify.app/
+LinkedIn: Md Modassir
 
 Email: mdmodassir259@gmail.com
+
+⭐ Show Your Support
+If you found this project helpful, please give it a ⭐ on GitHub!
+
+Made with ❤️ by Md Modassir
